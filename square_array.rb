@@ -1,3 +1,4 @@
+require 'pry'
 
 def square_array(array)
   new_numbers = []
@@ -5,4 +6,5 @@ def square_array(array)
     new_numbers << numbers**2
   end
   return new_numbers
+  binding.pry
 end
